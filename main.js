@@ -9,6 +9,7 @@ if (formulario) {
     if (numeroA && numeroB) {
       const validacaoNumero = +numeroB.value > +numeroA.value ? true : false;
       const mensagem = document.querySelector('.mensagem');
+      mensagem.classList.remove('valido', 'invalido');
 
       if (validacaoNumero) {
         mensagem.innerHTML = 'Enviado com sucesso!';

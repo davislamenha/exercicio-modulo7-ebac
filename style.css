@@ -21,3 +21,19 @@ form button {
   text-transform: uppercase;
   font-weight: 600;
 }
+.mensagem {
+  opacity: 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: 0.5s ease-in;
+}
+.valido {
+  opacity: 1;
+  background-color: #7da626;
+  color: #e7f2bd;
+}
+.invalido {
+  opacity: 1;
+  background-color: #a63838;
+  color: #fff;
+}
